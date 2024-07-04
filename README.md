@@ -1,6 +1,6 @@
 # CrewAi_Wingify
 Abstract:- 
-         In this assignment, I had a task to make a recommendation system for health on the basis of a blood test report. The code is written in python language. There were gpu problems because of that I couldn't get the output. But as much as I understood, basis on that, I wrote a code. The problem was to setup my local GPU. The GPU works in native windows on python 3.9 version but CrewAi can't work below python 3.10 version. Because of this contradiction, I couldn't use the GPU.
+        In my recent assignment, I was tasked with developing a health recommendation system based on blood test reports. The code was written in Python. However, I encountered issues with setting up my local GPU, which prevented me from obtaining the desired output. The GPU functions correctly on native Windows with Python 3.9, but CrewAI requires Python 3.10 or higher. This discrepancy caused a conflict, making it impossible to utilize the GPU for this project.
 
 Code Explanation:-
           First we imported the important crewai libraries like Agent, Task, Crew etc. Than other libraries like langchain,  os, sys. Then we have set the environment with OpenAI. For getting output we have chosen LLM model llama3:8b.  I downloaded it locally and then ran. For that I have to make two other files. One llama3.sh and llama3ModelFile. These are the steps to set the environment. You should have these files in the same folder and the llama3 installed in your pc in the same environment with command “ollama run llama3”.
